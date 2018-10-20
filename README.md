@@ -1,4 +1,4 @@
-# formPHP
+# Formulário PHP
 Formulário feito para fins de estudos de phpMailer e sass.
 
 
