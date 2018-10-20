@@ -1,0 +1,92 @@
+/************* BOOT CSS ******************* */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto"; }
+
+*:focus {
+  outline: none; }
+
+html, body {
+  height: 100%; }
+
+.clear {
+  clear: both; }
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0; }
+
+.w33 {
+  width: 33.3%; }
+
+.w50 {
+  width: 49%; }
+
+.w100 {
+  width: 100%; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+/******************************** */
+/************* FOMULARIO ******************* */
+h2 {
+  margin-top: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #7fe8cf; }
+
+form {
+  text-align: center; }
+  form input {
+    padding: 0 2%; }
+  form input[type=text] {
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid #7fe8cf;
+    padding-left: 8px;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #555; }
+  form input[type=email] {
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid #7fe8cf;
+    padding-left: 8px;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #444; }
+  form input[type=submit] {
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: #40bc9d;
+    border: 0;
+    border-bottom: 5px solid #009673;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer; }
+  form textarea {
+    height: 200px;
+    min-height: 40px;
+    border-radius: 10px;
+    border: 2px solid #7fe8cf;
+    padding: 8px;
+    margin-top: 50px;
+    resize: vertical;
+    font-size: 14px;
+    color: #444; }
+
+/******************************** */
+
+/*# sourceMappingURL=style.css.map */
